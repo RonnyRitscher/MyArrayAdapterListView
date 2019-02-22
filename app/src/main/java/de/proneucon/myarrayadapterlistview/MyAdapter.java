@@ -2,7 +2,6 @@ package de.proneucon.myarrayadapterlistview;
 
 import android.app.Activity;
 import android.content.Context;
-import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -31,7 +30,7 @@ public class MyAdapter extends ArrayAdapter<MyItem> {
         //->zuweisen der member
         resourceView = resource;    //int_id
         this.context = context;
-        myItems = myItems;
+        this.myItems = myItems;
     }
 
     //------------------------------------------------------------------
@@ -44,7 +43,7 @@ public class MyAdapter extends ArrayAdapter<MyItem> {
         convertView = ((Activity)context).getLayoutInflater().inflate(resourceView , parent , false);
 
         // NAME des Kunden
-        TextView name = convertView.findViewById(R.id.tv_listview_item_text_name); //greife auf das tv zu
+        TextView name = convertView.findViewById(R.id.tv_listview_item_name); //greife auf das tv zu
         name.setText(myItems.get(position).getName());   //gehe an die position x und hole dir den Namen (aus der MyItem.java)
 
         // BESCHREIBUNG des Kunden

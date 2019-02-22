@@ -5,7 +5,7 @@ public class MyItem {
     //MEMBER
     private String name;
     private String beschreibung;
-    private String icon;
+    private int icon;
     private boolean isKunde;
 
     //CONSTRUCTOR
@@ -37,7 +37,7 @@ public class MyItem {
         return icon;
     }
 
-    public void setIcon(String icon) {
+    public void setIcon(int icon) {
         this.icon = icon;
     }
 
