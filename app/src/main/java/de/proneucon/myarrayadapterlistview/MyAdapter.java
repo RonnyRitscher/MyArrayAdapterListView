@@ -28,7 +28,7 @@ public class MyAdapter extends ArrayAdapter<MyItem> {
     public MyAdapter(@NonNull Context context, int resource, @NonNull List<MyItem> myItems) {
         super(context, resource, myItems);
         //->zuweisen der member
-        resourceView = resource;    //int_id
+        this.resourceView = resource;    //int_id
         this.context = context;
         this.myItems = myItems;
     }

@@ -26,6 +26,14 @@ public class MainActivity extends AppCompatActivity {
         items.add(new MyItem("Peter" , "aus Frankfurt" , R.mipmap.ic_launcher, true));
         items.add(new MyItem("Frank" , "aus Hamburg" , R.mipmap.ic_launcher, true));
         items.add(new MyItem("Lisa" , "aus München" , R.mipmap.ic_launcher, true));
+        items.add(new MyItem("Max" , "aus Berlin" , R.mipmap.ic_launcher, true));
+        items.add(new MyItem("Peter" , "aus Frankfurt" , R.mipmap.ic_launcher, true));
+        items.add(new MyItem("Frank" , "aus Hamburg" , R.mipmap.ic_launcher, true));
+        items.add(new MyItem("Lisa" , "aus München" , R.mipmap.ic_launcher, true));
+        items.add(new MyItem("Max" , "aus Berlin" , R.mipmap.ic_launcher, true));
+        items.add(new MyItem("Peter" , "aus Frankfurt" , R.mipmap.ic_launcher, true));
+        items.add(new MyItem("Frank" , "aus Hamburg" , R.mipmap.ic_launcher, true));
+        items.add(new MyItem("Lisa" , "aus München" , R.mipmap.ic_launcher, true));
 
         // verwenden der LIST-VIEW von activity_main
         ListView listView = findViewById(R.id.lv_id_myList);
