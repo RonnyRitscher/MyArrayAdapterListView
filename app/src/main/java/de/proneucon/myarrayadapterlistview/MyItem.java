@@ -1,8 +1,5 @@
 package de.proneucon.myarrayadapterlistview;
 
-import android.media.Image;
-import android.widget.CheckBox;
-
 public class MyItem {
 
     //MEMBER
@@ -12,7 +9,7 @@ public class MyItem {
     private boolean isKunde;
 
     //CONSTRUCTOR
-    public MyItem(String name, String beschreibung, String icon, boolean isKunde) {
+    public MyItem(String name, String beschreibung, int icon, boolean isKunde) {
         this.name = name;
         this.beschreibung = beschreibung;
         this.icon = icon;
@@ -36,7 +33,7 @@ public class MyItem {
         this.beschreibung = beschreibung;
     }
 
-    public String getIcon() {
+    public int getIcon() {
         return icon;
     }
 
