@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyArrayAdapterListView</string>
+    <string name="bild_des_kunden">Bild des Kunden</string>
+</resources>
